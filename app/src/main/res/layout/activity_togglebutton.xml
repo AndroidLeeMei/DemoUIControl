@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    tools:context="com.example.auser.demouicontrol.ToggleButtonEx">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff=""
+        android:textOn=""
+        android:button="@drawable/toggle_selector"
+        android:background="#0fff"
+        android:text="ToggleButton" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tip_dark" />
+</GridLayout>
+<!--因為預設是關的,所以放暗的圖片-->
+<!--要自定設定文字內容時,底下兩個性要為空自串-->
+    <!--android:textOff=""-->
+    <!--android:textOn=""-->
+<!--再加上下面兩行-->
+    <!--android:button="@drawable/toggle_selector"-->
+<!--背景換成透明圖片…-->
+<!--或者是將background="#0fff"-->
+    <!--android:background="#0fff"-->
+    <!--android:background="@drawable/one_pixel_transparent"-->

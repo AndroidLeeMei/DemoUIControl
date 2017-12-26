@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.auser.demouicontrol">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 設定入口點是那一個Activity  EditTextEx -->
+        <activity
+            android:name=".EditTextEx"
+            android:label="@string/title_activity_edit_text_ex"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RadioEx" />
+        <activity android:name=".CheckBoxEx" />
+        <activity android:name=".ToggleButtonEx" />
+        <activity android:name=".ProgressBarEx" />
+        <activity android:name=".RatingBarActivity" />
+        <activity
+            android:name=".DatePickerEx"
+            android:label="@string/title_activity_date_picker_ex"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DatePicker2Ex" />
+        <activity android:name=".TimePickerEx" />
+        <activity android:name=".DatePickerDialogEx" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListViewEx" />
+        <activity android:name=".SpinnerEx" />
+        <activity android:name=".GridViewEx"></activity>
+    </application>
+
+</manifest> <!-- 設定那個畫為主頁面 --><!-- <intent-filter> --><!-- <action android:name="android.intent.action.MAIN" /> --><!-- <category android:name="android.intent.category.LAUNCHER" /> --><!-- </intent-filter> -->

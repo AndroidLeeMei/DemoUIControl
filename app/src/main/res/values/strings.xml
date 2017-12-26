@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DemoUIControl</string>
+    <string name="title_activity_edit_text_ex">EditTextEx</string>
+    <string name="title_activity_date_picker_ex">DatePickerEx</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!--建立spinner的字串陣列,調整順序需手動…-->
+    <!--另一種方法也可以獨立成一個檔案,檔名任意,但要小寫,不能數字開頭,也是放在values底下-->
+    <string-array name="cards">
+        <item>VISA</item>
+        <item>MasterCard</item>
+        <item>JCB</item>
+        <item>HSBC</item>
+        <item>CitBank</item>
+        <item>SD</item>
+    </string-array>
+</resources>
+
